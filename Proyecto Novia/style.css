@@ -101,6 +101,20 @@ main{
     width: 100%;
 }
 
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.pie{
+    background-color: #303030;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
 @media (max-width: 768px) {
 
     main{
@@ -142,3 +156,5 @@ main{
         gap: 2em;
     }
 }
+
+
