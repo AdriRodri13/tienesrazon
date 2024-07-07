@@ -126,8 +126,13 @@ h2{
 
 footer{
     width: 100%;
-    position: absolute;
+    position:absolute;
     bottom: 0;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pie{
@@ -137,6 +142,8 @@ footer{
     text-align: center;
     font-size: 2em;
 }
+
+
 
 @media (max-width: 768px) {
 
@@ -164,6 +171,21 @@ footer{
 
     .boton{
         font-size: 1.8em;
+    }
+
+    article{
+        margin-bottom: 3em;
+    }
+
+    .final{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        width: 100%;
+        position:relative;
     }
 
     .sidebar{
