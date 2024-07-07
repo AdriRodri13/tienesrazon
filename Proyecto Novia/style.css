@@ -108,19 +108,19 @@ main{
     }
 
     header{
-        padding: 5px;
+        padding: 10px;
         padding-right:0 ;
         padding-left: 0;
     }
 
     .titulo{
         border: 2px solid white;
-        padding: 2px;
+        padding: 4px;
         border-radius: 5px;
     }
 
     h1{
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .principal {
@@ -128,7 +128,7 @@ main{
     }
 
     .boton{
-        font-size: 1.3em;
+        font-size: 1.8em;
     }
 
     .sidebar{
